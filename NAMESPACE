@@ -1,0 +1,35 @@
+import(IRanges)
+
+importClassesFrom(GenomicFeatures, TranscriptDb)
+
+importClassesFrom(GenomicRanges, GRangesList, GappedAlignments,
+                  GenomicRanges)
+
+importClassesFrom(methods, character)
+
+importMethodsFrom(GenomicFeatures, exonsBy)
+
+importMethodsFrom(GenomicRanges, countGenomicOverlaps, seqinfo,
+                  seqlevels, "seqlevels<-", seqnames)
+
+importMethodsFrom(Rsamtools, ScanBamParam, countBam)
+
+importFrom(GenomicFeatures, loadFeatures)
+
+importFrom(GenomicRanges, readGappedAlignments)
+
+importFrom(MASS, negative.binomial, theta.ml)
+
+importFrom(methods, "@<-", as, callGeneric, new)
+
+importFrom(stats, fitted, glm, glm.control, model.matrix, optim,
+           poisson)
+
+exportMethods(
+    estimateGenomicOverlaps_glm,
+    estimateGenomicOverlaps_poisson,
+    estimateGenomicOverlaps)
+
+export(keepSeqlevels,
+       renameSeqlevels)
+

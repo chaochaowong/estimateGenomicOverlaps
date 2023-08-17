@@ -1,0 +1,14 @@
+Package: estimateGenomicOverlaps
+Title: Estimate expression of genomic ranges 
+Description: 
+Version: 0.0.27
+Author: Valerie Obenchain and Chao-Jen Wong
+Maintainer: Valerie Obenchain <vobencha@fhcrc.org> and Chao-Jen Wong
+  <cwon2@fhcrc.org> 
+Depends: R (>= 2.13.0), methods, GenomicRanges, IRanges
+Imports: GenomicFeatures, GenomicRanges, IRanges, MASS, Rsamtools,
+         methods, stats
+Suggests: RUnit
+biocViews: Sequencing, HighThroughputSequencing
+License: Artistic-2.0
+
