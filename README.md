@@ -1,0 +1,1 @@
+We use Poisson models to estimate transcript expression for transcripts that share the same exons with the others in the same gene for genes with overlapping exons. Paragraphs below are the high-level description of the mathematical models used to model the sequencing process. See H. Jiang (2009) for more details.
